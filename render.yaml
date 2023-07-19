@@ -1,0 +1,12 @@
+# render.yaml
+
+# Specify the environment for your application
+env:
+  - key: MY_ENV_VARIABLE
+    value: my_environment_value
+
+# Specify the build command to run during deployment
+buildCommand: /opt/render/project/src/.venv/bin/python -m pip install --upgrade pip
+
+# Specify the start command for your application
+startCommand: /opt/render/project/src/.venv/bin/python app.py
