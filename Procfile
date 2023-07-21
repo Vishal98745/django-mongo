@@ -1,1 +1,0 @@
-web: gunicorn mongoAtlas.wsgi --log-file -
